@@ -1,0 +1,29 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heart {
+    font-size: 10rem;
+    animation: heart .5s infinite alternate linear; 
+    color: red;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes heart {
+    from {
+        transform: scale(.7);
+    } to {
+        transform:  scale(1);
+    }
+}
